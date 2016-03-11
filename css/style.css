@@ -1,0 +1,60 @@
+/*Connecting Knowledge Custom styles*/
+
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default {
+	background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	/*color: #1f71bb;*/
+}
+
+.navbar-default .navbar-nav>li>a {
+	/*color: #1f71bb;*/
+}
+
+header {
+	margin: -70px 0 20px 0;
+	padding: 120px 0 50px 0;
+	height: 90vh;
+	/*background-color: #1f71bb;*/
+}
+
+header h1 {
+	font-size: 70px;
+}
+
+header h1, header h1>small {
+	color: #1f71bb;
+}
+
+header .btn-blue {
+	margin-top: 20px;
+    color: #fff;
+    background-color: #1f71bb;
+    border-color: #1f71bb;
+}
+
+main > .row > section:nth-child(odd) {
+	background-color: #1f71bb;
+	color: #fff;
+	border-radius: 20px;
+}
+
+main > .row > section {
+	padding: 50px;
+}
+
+main section > h2 {
+	margin-top: 0px;
+}
+
+footer {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
