@@ -70,6 +70,13 @@ header {
 	position: relative;
 }
 
+canvas {
+	position: absolute;
+	width: 1000px;
+	height: 1000px;
+	z-index: 1000;
+}
+
 header h1 {
 	font-size: 48px;
 	margin-top: 20px;
