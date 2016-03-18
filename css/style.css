@@ -65,8 +65,9 @@ header {
 #front-page-header {
 	margin: -70px 0 50px 0;
 	padding: 70px 0 50px 0;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #418ED4; #1f71bb;
+	position: relative;
 }
 
 header h1 {
@@ -90,19 +91,42 @@ header h1 {
 	color: white;/*#1f71bb;*/
 }
 
+#front-page-header h3 {
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+	#front-page-header h3 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+}
+
 #front-page-header .btn {
-	margin-top: 50px;
     background-color: #FFDB41;
     border-color: #FFDB41;
     border-radius: 50px;
     padding: 10px;
     width: 50px;
     height: 50px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    left: 0;
+    right: 0;
 }
- 
+
+@media (min-width: 768px) {
+	#front-page-header .btn {
+		bottom: 50px;
+	}
+}
+
 @media (min-width: 1170px) {
 	#front-page-header .btn {
-		margin-top: 100px;
+		bottom: 100px;
 	}
 }
 
@@ -136,7 +160,8 @@ box-shadow: 0 17px 50px 0 rgba(0,0,0,0.12),0 12px 15px 0 rgba(0,0,0,0.14);
 
 @media (min-width: 1170px) {
 	#front-page-header #banner-bar {
-		width: 930px;
+		min-width: 930px;
+		width: 72%;
 	}
 }
 .sub-header {
