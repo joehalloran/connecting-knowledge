@@ -240,7 +240,6 @@ main section > p {
 	width: 25%;
 	text-align: right;
 	border-right: 4px solid #fff;
-	padding-right: 20px;
 	position: relative;
 	vertical-align: text-top;
 	padding-top: 20px;
@@ -263,6 +262,7 @@ main section > p {
 #timeline table tr > td {
 	padding-left: 20px;
 	padding-bottom: 30px;
+	padding-right: 20px;
 }
 
 footer {
