@@ -70,7 +70,7 @@ header {
 	position: relative;
 }
 
-canvas, .background {
+canvas {
 	position: absolute;
 	width: 1000px;
 	height: 1000px;
@@ -196,30 +196,24 @@ main > .row .float-right {
 }
 
 main > .row > section {
-	padding: 20px 0 20px 0;
+	padding: 20px;
 	position: relative;
 	background-color: #98C5EE;
 	margin-bottom: 70px;
 
 }
 
-@media (min-width: 768px;) {
-	main > .row > section {
-		padding: 20px;
-	}
-}
-
 main section > h2 {
 	margin-top: 0px;
 	position: absolute;
-	margin-left: 10px;
+	margin-left: -4px;
 	margin-top: -50px;
 	background-color: #FFDB41;
 	padding: 20px;
 	color: #000;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 	main section > h2 {
 		margin-left: -50px;
 	}
@@ -233,37 +227,6 @@ main .first-par {
 main section > p {
 	margin-left: 20px;
 } 
-
-
-
-#timeline table tr > td:first-child {
-	width: 25%;
-	text-align: right;
-	border-right: 4px solid #fff;
-	padding-right: 20px;
-	position: relative;
-	vertical-align: text-top;
-	padding-top: 20px;
-}
-
-#timeline table tr > td:first-child:after {
-	content: ' ';
-	position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 20px;
-    right: -12px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    background-color: #fff;
-    z-index: 1000;
-}
-
-#timeline table tr > td {
-	padding-left: 20px;
-	padding-bottom: 30px;
-}
 
 footer {
 	margin-top: 40px;
