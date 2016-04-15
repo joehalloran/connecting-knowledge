@@ -71,7 +71,7 @@ header {
 	-ms-height: 100vh;
 	-o-height: 100vh;
 	height: 100vh;
-	background-color: #418ED4; #1f71bb;
+	background-color: #418ED4;
 	position: relative;
 }
 
@@ -159,10 +159,10 @@ header h1 {
 }
 
 #front-page-header .btn:hover {
-box-shadow: 0 17px 50px 0 rgba(0,0,0,0.12),0 12px 15px 0 rgba(0,0,0,0.14);
+	box-shadow: 0 17px 50px 0 rgba(0,0,0,0.12),0 12px 15px 0 rgba(0,0,0,0.14);
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
-	    }
+}
 
 #front-page-header #banner-bar {
 	width: 75%;
@@ -171,6 +171,7 @@ box-shadow: 0 17px 50px 0 rgba(0,0,0,0.12),0 12px 15px 0 rgba(0,0,0,0.14);
 	background-color: white;/*#1f71bb;*/
 	margin-left: -20px;
 	margin-bottom: 10px;
+	position: relative;
 }
 
 @media (min-width: 768px) {
