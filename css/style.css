@@ -56,7 +56,7 @@ body {
 }
 
 header {
-	margin: -70px 0 50px 0;
+	margin: -90px 0 50px 0;
 	padding: 60px 0 40px 0;
 	background-color: #418ED4;
 	color: #fff;
@@ -65,16 +65,30 @@ header {
 #front-page-header {
 	margin: -70px 0 50px 0;
 	padding: 70px 0 50px 0;
-	min-height: 100vh;
+	height: 550px;
+	-webkit-height: 100vh;
+	-moz-height: 100vh;
+	-ms-height: 100vh;
+	-o-height: 100vh;
+	height: 100vh;
 	background-color: #418ED4; #1f71bb;
 	position: relative;
 }
 
-canvas, .background {
-	position: absolute;
-	width: 1000px;
-	height: 1000px;
-	z-index: 1000;
+@media (min-width: 600px) and (orientation: portrait) {
+	#front-page-header {
+		height: 550px;
+	}
+}
+
+@media (min-width: 992px) {
+	#front-page-header {
+		-webkit-height: 100vh;
+		-moz-height: 100vh;
+		-ms-height: 100vh;
+		-o-height: 100vh;
+		height: 100vh;
+	}
 }
 
 header h1 {
@@ -120,7 +134,7 @@ header h1 {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    bottom: 20px;
+    bottom: 30px;
     left: 0;
     right: 0;
 }
@@ -133,7 +147,7 @@ header h1 {
 
 @media (min-width: 1170px) {
 	#front-page-header .btn {
-		bottom: 100px;
+		bottom: 70px;
 	}
 }
 
@@ -196,7 +210,7 @@ main > .row .float-right {
 }
 
 main > .row > section {
-	padding: 20px 0 20px 0;
+	padding: 20px;
 	position: relative;
 	background-color: #98C5EE;
 	margin-bottom: 70px;
@@ -212,7 +226,7 @@ main > .row > section {
 main section > h2 {
 	margin-top: 0px;
 	position: absolute;
-	margin-left: 10px;
+	margin-left: 0px;
 	margin-top: -50px;
 	background-color: #FFDB41;
 	padding: 20px;
@@ -229,12 +243,6 @@ main section > h2 {
 main .first-par {
 	margin-top: 30px;
 }
-
-main section > p {
-	margin-left: 20px;
-} 
-
-
 
 #timeline table tr > td:first-child {
 	width: 25%;
