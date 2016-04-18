@@ -1,0 +1,373 @@
+/*Connecting Knowledge Custom styles*/
+
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .lead {
+	font-weight: 400;
+}
+
+.navbar-default {
+	background-color: #418ED4;
+    border-color: #418ED4;
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active {
+	color: #FFDB41;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar, 
+.navbar-default .navbar-toggle .icon-bar, 
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle .icon-bar  {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:active .icon-bar, 
+.navbar-default .navbar-toggle:focus .icon-bar, 
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:visited .icon-bar  {
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:visited {
+	background-color: #FFDB41;
+	border-color: transparent;
+}
+
+header {
+	margin: -90px 0 50px 0;
+	padding: 60px 0 40px 0;
+	background-color: #418ED4;
+	color: #fff;
+}
+
+#front-page-header {
+	margin: -70px 0 50px 0;
+	padding: 70px 0 50px 0;
+	height: 550px;
+	-webkit-height: 100vh;
+	-moz-height: 100vh;
+	-ms-height: 100vh;
+	-o-height: 100vh;
+	height: 100vh;
+	background-color: #418ED4;
+	position: relative;
+	max-height: 1000px;
+}
+
+/* Fix for large format phones */
+@media (min-width: 600px) and (orientation: portrait) {
+	#front-page-header {
+		height: 550px;
+	}
+}
+
+/* Override of above for larger devices*/
+@media (min-width: 992px) {
+	#front-page-header {
+		-webkit-height: 100vh;
+		-moz-height: 100vh;
+		-ms-height: 100vh;
+		-o-height: 100vh;
+		height: 100vh;
+	}
+}
+
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#front-page-header {
+		height: 768px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#front-page-header {
+		height: 550px; /* Note this height is based on fix for large format phones (above) */
+	}
+}
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	#front-page-header {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	#front-page-header {
+		height: 568px;
+	}
+}
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 1) {
+	#front-page-header {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 1) {
+	#front-page-header {
+		height: 480px;
+	}
+}
+
+header h1 {
+	font-size: 48px;
+	margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+	header h1 {
+		font-size: 70px;
+	}
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+	header h1 {
+		margin-top: 0;
+		font-size: 40px;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	header h1 {
+		margin-top: 70px;
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#front-page-header h1 {
+		margin-top: 110px;
+	}
+}
+
+#front-page-header h1, #front-page-header h3 {
+	color: white;/*#1f71bb;*/
+}
+
+#front-page-header h3 {
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+	#front-page-header h3 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+}
+
+#front-page-header .btn {
+    background-color: #FFDB41;
+    border-color: #FFDB41;
+    border-radius: 50px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+	#front-page-header .btn {
+		bottom: 50px;
+	}
+}
+
+@media (min-width: 1170px) {
+	#front-page-header .btn {
+		bottom: 70px;
+	}
+}
+
+#front-page-header .btn span {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 3px 0 0 2px;
+}
+
+#front-page-header .btn:hover {
+	box-shadow: 0 17px 50px 0 rgba(0,0,0,0.12),0 12px 15px 0 rgba(0,0,0,0.14);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+#front-page-header #banner-bar {
+	width: 75%;
+	min-width: 315px;
+	height: 10px;
+	background-color: white;/*#1f71bb;*/
+	margin-left: -20px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	#front-page-header #banner-bar {
+		width: 60%;
+	}
+}
+
+@media (min-width: 1170px) {
+	#front-page-header #banner-bar {
+		min-width: 930px;
+		width: 72%;
+	}
+}
+.sub-header {
+	margin-left: 10px;	
+}
+
+main > .row > .highlight {
+	background-color: #418ED4;
+	color: #fff;
+}
+
+main > .row > .highlight a {
+	color: #FFCF00;
+}
+
+main > .row > section a {
+	color: #0A61AF;
+}
+
+main > .row .float-right {
+	position: absolute;
+	margin-left: 40%;
+	width: 50%;
+	top: 90%;
+}
+
+main > .row > section {
+	padding: 20px;
+	position: relative;
+	background-color: #98C5EE;
+	margin-bottom: 70px;
+
+}
+
+@media (min-width: 768px;) {
+	main > .row > section {
+		padding: 20px;
+	}
+}
+
+main section > h2 {
+	margin-top: 0px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: -50px;
+	background-color: #FFDB41;
+	padding: 20px;
+	color: #000;
+}
+
+@media (min-width: 992px) {
+	main section > h2 {
+		margin-left: -50px;
+	}
+}
+
+
+main .first-par {
+	margin-top: 30px;
+}
+
+#timeline table tr > td > h3 {
+	margin-top: 0px;
+}
+
+#timeline table tr > td:first-child > p {
+	margin-top: 1px;
+}
+
+#timeline table tr > td:first-child {
+	width: 25%;
+	text-align: right;
+	border-right: 4px solid #fff;
+	position: relative;
+	vertical-align: text-top;
+}
+
+#timeline table tr > td:first-child:after {
+	content: ' ';
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: -12px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+#timeline table tr > td {
+	padding-left: 20px;
+	padding-bottom: 30px;
+	padding-right: 20px;
+}
+
+footer {
+	margin-top: 40px;
+	background-color: #eee;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer nav ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+footer nav ul > li {
+    display: inline;
+    /*margin-right: 5px;*/
+}
+
+footer nav ul > li:after {
+	content: " | ";
+	margin: 0 2px 0 4px;
+}
+
+footer nav ul > li:last-child:after {
+	content: " ";
+}
+
+footer #footer-right {
+	text-align: left;
+}
+
+@media (min-width: 992px) {
+	footer #footer-right {
+		text-align: right;
+	}
+}
+
+
+
