@@ -75,12 +75,14 @@ header {
 	position: relative;
 }
 
+/* Fix for large format phones */
 @media (min-width: 600px) and (orientation: portrait) {
 	#front-page-header {
 		height: 550px;
 	}
 }
 
+/* Override of above for larger devices*/
 @media (min-width: 992px) {
 	#front-page-header {
 		-webkit-height: 100vh;
@@ -88,6 +90,41 @@ header {
 		-ms-height: 100vh;
 		-o-height: 100vh;
 		height: 100vh;
+	}
+}
+
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#front-page-header {
+		height: 768px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#front-page-header {
+		height: 550px; /* Note this height is based on fix for large format phones (above) */
+	}
+}
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	#front-page-header {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	#front-page-header {
+		height: 568px;
+	}
+}
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	#front-page-header {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	#front-page-header {
+		height: 480px;
 	}
 }
 
