@@ -41,6 +41,8 @@
         <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav text-right">
             <li><a href="about.php">About</a></li>
+            <li><a href="events.php">Events</a></li>
+            <li><a href="leading-lesson-study.php">Leading Lesson Study</a></li>
             <li><a href="connecting-knowledge-14-15.php">C.K. 2014-15</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>

@@ -6,6 +6,7 @@
 	         <ul>
 	            <li><a href="/">Connecting Knowledge</a></li>
 	          	<li><a href="about.php">About</a></li>
+              <li><a href="events.php">Events</a></li>
 	          	<li><a href="connecting-knowledge-14-15.php">C.K. 2014-15</a></li>
 	            <li><a href="contact.php">Contact</a></li>
 	          </ul>
